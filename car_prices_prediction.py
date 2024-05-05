@@ -187,7 +187,7 @@ ord_cat_cols = ['Owner_Type']
 
 #Data Preprocessing
 
-pip install category_encoders
+#pip install category_encoders
 
 from category_encoders import BinaryEncoder
 from sklearn.impute import SimpleImputer
