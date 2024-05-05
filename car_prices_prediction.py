@@ -505,7 +505,7 @@ data = {'locations': locations,
 pickle.dump(data, open('data_for_deploy.pkl', 'wb'))
 Streamlit
 
-%%writefile app.py
+#%%writefile app.py
 
 import streamlit as st
 import pandas as pd
